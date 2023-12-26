@@ -1,0 +1,81 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.badge {
+    height: 2px;
+    width: 10px;
+    margin-right: 4px; 
+  }
+
+.badge-color1 { background-color: #FF0000; }
+.badge-color2 { background-color: #00FF00; }
+
+.button {
+    background-color: violet;
+    color: white;
+    padding: 8px 16px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.button:hover {
+    background-color: purple; 
+}
+
+.button:active {
+    background-color: darkviolet; 
+}
+
+.button:disabled {
+    opacity: 0.5; 
+    cursor: not-allowed;
+}
+
+.input-form {
+    width: 400px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 12px 16px;
+    gap: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.input-form:hover {
+    border-color: #555; 
+}
+
+.input-form:focus-within {
+    border-color: #007BFF; 
+}
+
+.input-form.filled {
+    background-color: #f0f0f0;  
+}
+
+.input-form.validation-error {
+    border-color: #FF0000;
+}
+
+.input-form:disabled {
+    background-color: #ddd; 
+    border-color: #ccc; 
+    color: #888; 
+}
+
+.modal-title {
+    background-color: #007BFF;
+    color: white;
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.modal-title .modal-actions {
+    display: flex;
+    gap: 8px;
+}
