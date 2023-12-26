@@ -12,5 +12,6 @@ There`s a possibility for me to do also backend with Node.js for this project.
 ## Current state:
 
 <img src="/images/interface1.jpg" />
+__________________
 
 <img src="/images/interface2.jpg" />
