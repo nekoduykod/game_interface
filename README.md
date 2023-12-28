@@ -6,7 +6,7 @@ I practiced HTML, CSS, JS basic knowledge.
 
 The task demands to use Typescript, React (details are in other_files/task.md).
 
-I`ll finish this later. Some courses of JS are needed for me. 
+I віл finish this later. Some courses of JS are needed for me. 
 There`s a possibility for me to do also backend with Node.js for this project.
 
 ## Current state:
